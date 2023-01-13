@@ -13,6 +13,8 @@ Gem::Specification.new do |s|
   s.summary     = "Soap4R-ng - Soap4R (as maintained by RubyJedi) for Ruby 1.8 thru 2.1 and beyond"
   s.description = "Soap4R NextGen (as maintained by RubyJedi) for Ruby 1.8 thru 2.1 and beyond"
 
+  s.required_ruby_version = '>= 2.7.0'
+  
   s.requirements << 'none'
   s.require_path = 'lib'
 
